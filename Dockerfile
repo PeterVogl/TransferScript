@@ -13,5 +13,5 @@ Run apt-get install -y libpcap-dev
 # RUN javac HelloWorld.java
 # CMD ["java", "HelloWorld"]
 
-COPY Transfer/TransferScript-1.1-SNAPSHOT.jar TransferScript-1.1-SNAPSHOT.jar
-CMD ["java", "-jar", "TransferScript-1.1-SNAPSHOT.jar"]
+COPY Transfer/TransferScript-1.0.jar TransferScript-1.0.jar
+CMD ["java", "-jar", "TransferScript-1.0.jar"]
