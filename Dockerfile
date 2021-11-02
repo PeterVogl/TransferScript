@@ -6,7 +6,7 @@ RUN apt-get install -y openjdk-11-jre-headless \
                         openjdk-11-jdk \
                         openjdk-11-source
 
-Run apt-get install -y libpcap-dev
+Run apt-get install -y libpcap-dev libmysql-java
 
 # COPY . /usr/HelloWorld/src/myapp
 # WORKDIR /usr/HelloWorld/src/myapp
